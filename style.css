@@ -1,0 +1,184 @@
+ /*Фон, цвет шрифта, центр, колонки по вертикали, контейнеры по центру*/
+body {
+  background-color: #254E58;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*Цвет заголовка, верхний отступ, отступы, размер шрифта, шрифт, жирность*/
+.header__title {
+  color: #a59882;
+  padding: 14px;
+  margin: 0px 0 8px 0;
+  font-size: 36px;
+  font-family: "Georgia";
+  font-weight: 300;
+}
+
+/*Приведение к блоку, отступы, ширина, высота, скругление рамки, размеры рамки*/
+.photo {
+  display: block;
+  margin: 0 auto;
+  width: 280px;
+  height: 280px;
+  border-radius: 100%;
+  box-shadow: 0 0 25px rgba(205, 249, 234, 0.6);
+}
+
+/*Ховер, изменение цвета рамки*/
+  .photo:hover {
+    border: 4px solid #DEF2F1;
+  }
+
+/*Цвет фразы, шрифта, размер щрифта, отступы*/
+.header__subtitle {
+  color: #a59882;
+  font-family: "Georgia";
+  font-size: 16px;
+  margin: 15px 0px 0px;
+}
+
+/*Цвет фона, цвет шрифта, скругление, шрифт, ширина рамки, размер шрифта, отступы текста */
+.description__container {
+  background: #2B7A78;
+  color: #DEF2F1;
+  border-radius: 10px;
+  font-family: "Georgia";
+  width: 350px;
+  font-size: 16px;
+  padding: 0px 20px 5px;
+}
+
+/*Ширина текста*/
+.description__title {
+  width: 351px;
+}
+
+/*Ширина контура, цвет контура*/
+.skills {
+  width: 390px;
+  color: #DEF2F1;
+}
+
+/*Шрифт, размера шрифта заголовка, отсутпы у заголовка, сортировка по центру заголовка */
+.skills__header {
+  font-family: "Georgia";
+  font-size: 22px;
+  margin: 0px 0px 0px;
+  text-align: center;
+  color: #a59882;
+}
+
+/*Заливка контура, скругление, шрифт, размер шрифта,  */
+.skills__container {
+  background: #2B7A78;
+  border-radius: 10px;
+  font-family: "Georgia";
+  font-size: 16px;
+  padding: 15px 20px 0px;
+}
+
+/*Отступы, цвет линии, ширина линии, расстояние между слов*/
+.skills__link {
+  padding: 0px 0px 9px;
+  border-bottom: 1px solid #2B7A78;
+  width: 350px;
+  display: flex;
+}
+
+/*Убирает последнюю версию*/
+.skills__link:last-child {
+  border-bottom: none;
+}
+
+/*Убирает подчеркивание под ссылкой, цвет ссылок*/
+.skills__link,
+.skills__link:visited {
+  text-decoration: none;
+  color: #DEF2F1;
+}
+
+/*Междустрочный интервал, растояние между слов*/
+.skills__title {
+  margin: 0;
+  min-width: 171px;
+  color: #DEF2F1;
+}
+
+/*Ширина рамки, нижний отступ от рамки*/
+.links {
+  width: 390px;
+  margin-bottom: 30px;
+}
+
+/*Шрифт, размера шрифта заголовка, отсутпы у заголовка, сортировка по центру заголовка */
+.links__header {
+  font-family: "Georgia";
+  font-size: 22px;
+  margin: 0 0 10px 0;
+  text-align: center;
+  color: #a59882;
+}
+
+/*Цвет заливки, скругление, шрифт, размер шрифта, межстрочный интервал, отступы, сортировка по центру*/
+.links__container {
+  background: #2B7A78;
+  border-radius: 10px;
+  font-family: "Georgia";
+  font-size: 16px;
+  gap: 7px;
+  padding: 15px 20px 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+/*Отступы, цвет линии, ширина линии, расстояние между слов*/
+.links__link {
+  padding: 0px 0px 9px;
+  border-bottom: 1px solid #2B7A78;
+  width: 350px;
+  display: flex;
+}
+
+/*Убирает последнюю версию*/
+.links__link:last-child {
+  border-bottom: none;
+}
+
+/*Убирает подчеркивание под ссылкой, цвет ссылок*/
+.linsk__link,
+.links__link:visited {
+  text-decoration: none;
+  color: #DEF2F1;
+}
+
+/*Междустрочный интервал, растояние между слов*/
+.links__title {
+  margin: 0;
+  min-width: 110px;
+  color: #DEF2F1;
+}
+
+  /* Что делать при наведении на ссылку */
+  d:hover {
+    color:#dacaae;
+  }
+  
+/*Толщина кнопки, ширина кнопки, цвет кнопки, скругление, размер шрифта, цвет шрифта, отступы, нижний отступ*/
+.button-link {
+  padding: 10px;
+  width: 390px;
+  background: #6E6658;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: "Georgia";
+  color: #DEF2F1;
+  padding: 9px 9px 9px;
+  margin-bottom: 30px;
+}
+
+button:hover {
+  color:#36aba7;
+  font-weight: 700;
+}
